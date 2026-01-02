@@ -3,12 +3,12 @@ import { BiMenu } from "react-icons/bi";
 const Header = () => {
   
   const toggleMobileMenu = () => {
-    const mobileMenu = document.getElementById('mobileMenu')
-    
-    if(mobileMenu.classList.contains('hidden')) {
-        mobileMenu.classList.remove('hidden');
+    const mobileMenu = document.getElementById("mobile-menu");
+    if (!mobileMenu) return;
+    if (mobileMenu.classList.contains("hidden")) {
+       mobileMenu.classList.remove("hidden");
     } else {
-        mobileMenu.classList.add('hidden');
+      mobileMenu.classList.add("hidden");
     }
   }
   
@@ -60,7 +60,7 @@ const Header = () => {
           <BiMenu className="text-3xl text-primary" />
         </button>
         
-        <div id= "mobileMenu" className= "hidden fixed top-16 bottom-0 right-0 left-0 p-5 md:hidden z-40 bg-black bg-opacity-70 backdrop-blur- md">
+        <div id= "mobile-menu" className= "hidden fixed top-16 bottom-0 right-0 left-0 p-5 md:hidden z-40 bg-black bg-opacity-70 backdrop-blur- md">
           <nav className= "flex flex-col gap-6 items-center">
              <a className= "text-base tracking-wider transition-colors hover:text-gray-300 z-50" href= "#">
                COMPANY
