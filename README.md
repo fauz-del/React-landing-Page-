@@ -47,28 +47,35 @@ website-landing-page/ ├─ src/ │  ├─ components/      # React component
 ## ⚡ Getting Started
 
 1. Clone the repository:
-git clone https://github.com/fauz-del/React-landing-Page-.git
-cd React-landing-Page-
+   ```bash
+   git clone https://github.com/fauz-del/React-landing-Page-.git
+   cd React-landing-Page-
 
 2. Install dependencies:
-pnpm install
+   ```bash
+   pnpm install
 
 3. Run the development server:
-pnpm run dev
+   ```bash
+   pnpm run dev
 
 4. Open your browser at:
-http://localhost:5173
+   ```bash
+   http://localhost:5173
 
 
 📦 Build & Deploy
 To create a production build:
+```bash
 pnpm run build
 
 
 To deploy the site to GitHub Pages:
+```bash
 pnpm run deploy
 
 After running pnpm run deploy, your live site will be updated here:
+```bash
 https://fauz-del.github.io/React-landing-Page-/
 
 
@@ -85,11 +92,13 @@ This project is open-source. Feel free to use and modify it.
 ✅ After adding this:  
 
 1. Save it as `README.md` in your project root.  
-2. Commit and push to GitHub:  
+2. Commit and push to GitHub:
+```bash
 git add README.md
 git commit -m "Add README with project details"
 git push origin main
 
 
 If you want the live site updated after changes, run:
+```bash
 pnpm run deploy
