@@ -69,15 +69,18 @@ To create a production build:
 ```bash
 pnpm run build
 
-
+```
 To deploy the site to GitHub Pages:
 ```bash
 pnpm run deploy
+
+```
 
 After running pnpm run deploy, your live site will be updated here:
 ```bash
 https://fauz-del.github.io/React-landing-Page-/
 
+```
 
 🎮 3D Model & Animations
 3D Model: Embedded using @splinetool/react-spline — interactive and responsive.
@@ -98,6 +101,7 @@ git add README.md
 git commit -m "Add README with project details"
 git push origin main
 
+```
 
 If you want the live site updated after changes, run:
 ```bash
